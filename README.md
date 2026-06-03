@@ -8,10 +8,12 @@ Everything in this repo is meant to be taken home: install the skills, set up th
 
 ```
 skills/
-  data-visualization/   Build publication-ready charts from raw data
+  data-visualization/   Build publication-ready charts from raw data (status: testing)
 routines/
-  news-digest/          Weekly digest of news + academic papers on your research topic
+  news-digest/          Weekly digest of news + academic papers on your research topic (status: draft)
 ```
+
+Things marked **testing** or **draft** are work in progress; they become **final** before the session.
 
 ## Session outline
 
@@ -23,7 +25,13 @@ routines/
 
 ## Getting started
 
-The easiest way to start is the Claude Desktop app (no terminal needed). Instructions will be added here before the session.
+The easiest way to start is the **Claude Desktop app**, no terminal needed:
+
+1. Download it from [claude.com/download](https://claude.com/download) (macOS and Windows, including ARM64)
+2. Sign in. Chat is free; the agent features used in this workshop (Claude Code / Cowork) require a Pro plan or higher
+3. Open a folder (e.g. a clone of this repo) and start asking
+
+Detailed step-by-step instructions will be finalized before the session.
 
 ## Contributing
 
