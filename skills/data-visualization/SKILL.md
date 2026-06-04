@@ -40,6 +40,8 @@ Useful migration indicators (coverage verified June 2026):
 | `SM.POP.TOTL` | International migrant stock, total | 1990-2024, 5-year steps |
 | `SM.POP.TOTL.ZS` | Migrant stock (% of population) | 1990-2024, 5-year steps |
 | `SG.POP.MIGR.FE.ZS` | Female migrants (% of migrant stock) | 1990-2020, 5-year steps |
+| `SM.POP.RHCR.EA` | UNHCR refugees, by country of asylum | Annual, 1960-2024 |
+| `SM.POP.RHCR.EO` | UNHCR refugees, by country of origin | Annual, 1960-2024 |
 
 ## Example
 

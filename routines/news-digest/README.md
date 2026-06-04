@@ -16,7 +16,13 @@ Every Monday morning, the agent searches the sources below for items from the pa
 - NBER working papers
 - CEPR discussion papers
 - CReAM (UCL Centre for Research & Analysis of Migration) working papers
-- New issues: Journal of Population Economics, Journal of Development Economics, International Migration Review, Migration Studies, Demography
+- RFBerlin (Rockwool Foundation Berlin) and BIM (Berlin Institute for Empirical Integration and Migration Research) publications
+- New issues: Journal of Population Economics, Journal of Development Economics, Economic Journal, Review of Economics and Statistics, European Journal of Political Economy, International Migration Review, Demography
+
+**Topic filters** (beyond raw migration counts)
+- Refugee integration and asylum policy
+- Political economy of migration: attitudes, protest, hate crime, media effects
+- Labor migration and labor market effects
 
 **News & policy**
 - Migration Policy Institute (migrationpolicy.org)

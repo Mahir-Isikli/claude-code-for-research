@@ -28,7 +28,7 @@ Things marked **testing** or **draft** are work in progress; they become **final
 The easiest way to start is the **Claude Desktop app**, no terminal needed:
 
 1. Download it from [claude.com/download](https://claude.com/download) (macOS and Windows, including ARM64)
-2. Sign in. Chat is free; the agent features used in this workshop (Claude Code / Cowork) require a Pro plan or higher
+2. Sign in. Chat is free; the agent features used in this workshop (Claude Code / Cowork) require a Pro subscription (~$20/month, cancellable anytime) or higher. If you want to follow along live, set this up before the session
 3. Open a folder (e.g. a clone of this repo) and start asking
 
 Detailed step-by-step instructions will be finalized before the session.
