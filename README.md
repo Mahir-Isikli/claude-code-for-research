@@ -31,7 +31,7 @@ The easiest way to start is the **Claude Desktop app**, no terminal needed:
 2. Sign in. Chat is free; the agent features used in this workshop (Claude Code / Cowork) require a Pro subscription (~$20/month, cancellable anytime) or higher. If you want to follow along live, set this up before the session
 3. Open a folder (e.g. a clone of this repo) and start asking
 
-Detailed step-by-step instructions will be finalized before the session.
+See **[INSTALL.md](INSTALL.md)** for the full step-by-step walkthrough (no terminal needed, including speech-to-text).
 
 ## Contributing
 

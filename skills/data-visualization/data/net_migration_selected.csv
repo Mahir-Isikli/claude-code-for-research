@@ -1,0 +1,529 @@
+country,year,value
+France,1960,143032
+France,1961,128618
+France,1962,141634
+France,1963,190925
+France,1964,163039
+France,1965,82879
+France,1966,96097
+France,1967,63018
+France,1968,113115
+France,1969,160403
+France,1970,182941
+France,1971,144321
+France,1972,101223
+France,1973,103910
+France,1974,26203
+France,1975,16139
+France,1976,59515
+France,1977,44918
+France,1978,18692
+France,1979,34295
+France,1980,54718
+France,1981,69365
+France,1982,81084
+France,1983,88166
+France,1984,76175
+France,1985,66149
+France,1986,51642
+France,1987,59890
+France,1988,69935
+France,1989,82052
+France,1990,43323
+France,1991,35201
+France,1992,61964
+France,1993,16892
+France,1994,-4232
+France,1995,-17128
+France,1996,-21463
+France,1997,-15255
+France,1998,20216
+France,1999,169448
+France,2000,171637
+France,2001,179476
+France,2002,191373
+France,2003,195616
+France,2004,200629
+France,2005,191417
+France,2006,132512
+France,2007,91973
+France,2008,79528
+France,2009,58032
+France,2010,52644
+France,2011,70178
+France,2012,103287
+France,2013,116297
+France,2014,52342
+France,2015,-345
+France,2016,15548
+France,2017,102984
+France,2018,132925
+France,2019,71972
+France,2020,145593
+France,2021,131465
+France,2022,179377
+France,2023,91862
+France,2024,90527
+France,2025,91737
+Germany,1960,212666
+Germany,1961,27534
+Germany,1962,276505
+Germany,1963,205976
+Germany,1964,69825
+Germany,1965,338258
+Germany,1966,134107
+Germany,1967,-174155
+Germany,1968,293307
+Germany,1969,584017
+Germany,1970,-273498
+Germany,1971,450328
+Germany,1972,336015
+Germany,1973,386881
+Germany,1974,-15126
+Germany,1975,-207740
+Germany,1976,-79761
+Germany,1977,33881
+Germany,1978,117167
+Germany,1979,237705
+Germany,1980,324203
+Germany,1981,130713
+Germany,1982,-58121
+Germany,1983,-81349
+Germany,1984,-150771
+Germany,1985,103556
+Germany,1986,212822
+Germany,1987,174272
+Germany,1988,515962
+Germany,1989,761002
+Germany,1990,679702
+Germany,1991,602638
+Germany,1992,811606
+Germany,1993,462096
+Germany,1994,315585
+Germany,1995,398077
+Germany,1996,281280
+Germany,1997,93281
+Germany,1998,-754469
+Germany,1999,219280
+Germany,2000,174594
+Germany,2001,272875
+Germany,2002,218795
+Germany,2003,142009
+Germany,2004,81735
+Germany,2005,81351
+Germany,2006,-489056
+Germany,2007,-24772
+Germany,2008,-23341
+Germany,2009,46533
+Germany,2010,130116
+Germany,2011,295282
+Germany,2012,199143
+Germany,2013,462384
+Germany,2014,592338
+Germany,2015,1175283
+Germany,2016,517480
+Germany,2017,452988
+Germany,2018,403908
+Germany,2019,319082
+Germany,2020,203468
+Germany,2021,310264
+Germany,2022,981552
+Germany,2023,609553
+Germany,2024,36954
+Germany,2025,-334072
+Italy,1960,-140765
+Italy,1961,-129761
+Italy,1962,-25840
+Italy,1963,-28198
+Italy,1964,-27368
+Italy,1965,-36267
+Italy,1966,-35352
+Italy,1967,-37992
+Italy,1968,-50149
+Italy,1969,-45346
+Italy,1970,-62216
+Italy,1971,-58627
+Italy,1972,43182
+Italy,1973,41631
+Italy,1974,42487
+Italy,1975,43051
+Italy,1976,40885
+Italy,1977,42246
+Italy,1978,43932
+Italy,1979,42637
+Italy,1980,295642
+Italy,1981,7182
+Italy,1982,-24223
+Italy,1983,-3733
+Italy,1984,203
+Italy,1985,6911
+Italy,1986,-6206
+Italy,1987,7825
+Italy,1988,18553
+Italy,1989,19540
+Italy,1990,35317
+Italy,1991,19721
+Italy,1992,51747
+Italy,1993,24321
+Italy,1994,502750
+Italy,1995,-460287
+Italy,1996,53450
+Italy,1997,50539
+Italy,1998,67985
+Italy,1999,54405
+Italy,2000,56065
+Italy,2001,48903
+Italy,2002,223861
+Italy,2003,478578
+Italy,2004,417970
+Italy,2005,258702
+Italy,2006,215995
+Italy,2007,495092
+Italy,2008,422534
+Italy,2009,283676
+Italy,2010,274387
+Italy,2011,198544
+Italy,2012,252524
+Italy,2013,158090
+Italy,2014,52679
+Italy,2015,39389
+Italy,2016,84568
+Italy,2017,95147
+Italy,2018,83686
+Italy,2019,46634
+Italy,2020,85281
+Italy,2021,157327
+Italy,2022,231228
+Italy,2023,150189
+Italy,2024,95246
+Italy,2025,75448
+Saudi Arabia,1960,15000
+Saudi Arabia,1961,15000
+Saudi Arabia,1962,15000
+Saudi Arabia,1963,15000
+Saudi Arabia,1964,15000
+Saudi Arabia,1965,15000
+Saudi Arabia,1966,15054
+Saudi Arabia,1967,17947
+Saudi Arabia,1968,21366
+Saudi Arabia,1969,25312
+Saudi Arabia,1970,31097
+Saudi Arabia,1971,43989
+Saudi Arabia,1972,55439
+Saudi Arabia,1973,63995
+Saudi Arabia,1974,69653
+Saudi Arabia,1975,73960
+Saudi Arabia,1976,85083
+Saudi Arabia,1977,96015
+Saudi Arabia,1978,105263
+Saudi Arabia,1979,112826
+Saudi Arabia,1980,121220
+Saudi Arabia,1981,140355
+Saudi Arabia,1982,153528
+Saudi Arabia,1983,157930
+Saudi Arabia,1984,153562
+Saudi Arabia,1985,148208
+Saudi Arabia,1986,172606
+Saudi Arabia,1987,175075
+Saudi Arabia,1988,146918
+Saudi Arabia,1989,159273
+Saudi Arabia,1990,160416
+Saudi Arabia,1991,162857
+Saudi Arabia,1992,160908
+Saudi Arabia,1993,158074
+Saudi Arabia,1994,160306
+Saudi Arabia,1995,160512
+Saudi Arabia,1996,160532
+Saudi Arabia,1997,160066
+Saudi Arabia,1998,159898
+Saudi Arabia,1999,160263
+Saudi Arabia,2000,468515
+Saudi Arabia,2001,484252
+Saudi Arabia,2002,500508
+Saudi Arabia,2003,514606
+Saudi Arabia,2004,523472
+Saudi Arabia,2005,518565
+Saudi Arabia,2006,504661
+Saudi Arabia,2007,489136
+Saudi Arabia,2008,491337
+Saudi Arabia,2009,496229
+Saudi Arabia,2010,504955
+Saudi Arabia,2011,491253
+Saudi Arabia,2012,479206
+Saudi Arabia,2013,485794
+Saudi Arabia,2014,469144
+Saudi Arabia,2015,465292
+Saudi Arabia,2016,-26997
+Saudi Arabia,2017,-920812
+Saudi Arabia,2018,-988751
+Saudi Arabia,2019,191582
+Saudi Arabia,2020,-74725
+Saudi Arabia,2021,-106287
+Saudi Arabia,2022,977072
+Saudi Arabia,2023,325691
+Saudi Arabia,2024,122170
+Saudi Arabia,2025,119738
+Turkiye,1960,14948
+Turkiye,1961,-26187
+Turkiye,1962,-34353
+Turkiye,1963,-44317
+Turkiye,1964,-69978
+Turkiye,1965,-113911
+Turkiye,1966,-50999
+Turkiye,1967,-65993
+Turkiye,1968,-78973
+Turkiye,1969,-110578
+Turkiye,1970,-150924
+Turkiye,1971,-94891
+Turkiye,1972,-119850
+Turkiye,1973,-130985
+Turkiye,1974,-153311
+Turkiye,1975,-193829
+Turkiye,1976,-135377
+Turkiye,1977,-151825
+Turkiye,1978,-182818
+Turkiye,1979,-218509
+Turkiye,1980,-151969
+Turkiye,1981,-213889
+Turkiye,1982,23728
+Turkiye,1983,39871
+Turkiye,1984,21787
+Turkiye,1985,8960
+Turkiye,1986,-29134
+Turkiye,1987,-40772
+Turkiye,1988,-27659
+Turkiye,1989,-33519
+Turkiye,1990,-27193
+Turkiye,1991,-69982
+Turkiye,1992,-49923
+Turkiye,1993,-35245
+Turkiye,1994,-37762
+Turkiye,1995,-149737
+Turkiye,1996,-179423
+Turkiye,1997,-208465
+Turkiye,1998,-231744
+Turkiye,1999,-219778
+Turkiye,2000,-195996
+Turkiye,2001,-166759
+Turkiye,2002,-129444
+Turkiye,2003,-121383
+Turkiye,2004,-146574
+Turkiye,2005,-174177
+Turkiye,2006,-190194
+Turkiye,2007,-186402
+Turkiye,2008,47915
+Turkiye,2009,24276
+Turkiye,2010,55532
+Turkiye,2011,68849
+Turkiye,2012,258623
+Turkiye,2013,438618
+Turkiye,2014,1033384
+Turkiye,2015,1063140
+Turkiye,2016,352063
+Turkiye,2017,659846
+Turkiye,2018,187570
+Turkiye,2019,-15690
+Turkiye,2020,37934
+Turkiye,2021,20283
+Turkiye,2022,-301544
+Turkiye,2023,-318070
+Turkiye,2024,-275952
+Turkiye,2025,-258205
+United Arab Emirates,1960,3102
+United Arab Emirates,1961,3141
+United Arab Emirates,1962,3212
+United Arab Emirates,1963,3264
+United Arab Emirates,1964,3126
+United Arab Emirates,1965,2598
+United Arab Emirates,1966,1516
+United Arab Emirates,1967,-283
+United Arab Emirates,1968,28866
+United Arab Emirates,1969,39902
+United Arab Emirates,1970,40792
+United Arab Emirates,1971,41425
+United Arab Emirates,1972,41888
+United Arab Emirates,1973,42243
+United Arab Emirates,1974,42474
+United Arab Emirates,1975,42380
+United Arab Emirates,1976,78903
+United Arab Emirates,1977,81111
+United Arab Emirates,1978,82359
+United Arab Emirates,1979,82238
+United Arab Emirates,1980,78148
+United Arab Emirates,1981,37600
+United Arab Emirates,1982,38276
+United Arab Emirates,1983,38536
+United Arab Emirates,1984,38124
+United Arab Emirates,1985,37605
+United Arab Emirates,1986,69655
+United Arab Emirates,1987,69493
+United Arab Emirates,1988,68991
+United Arab Emirates,1989,68132
+United Arab Emirates,1990,67118
+United Arab Emirates,1991,66943
+United Arab Emirates,1992,65739
+United Arab Emirates,1993,65545
+United Arab Emirates,1994,62352
+United Arab Emirates,1995,68938
+United Arab Emirates,1996,180296
+United Arab Emirates,1997,183310
+United Arab Emirates,1998,183329
+United Arab Emirates,1999,180469
+United Arab Emirates,2000,178469
+United Arab Emirates,2001,178779
+United Arab Emirates,2002,178988
+United Arab Emirates,2003,177237
+United Arab Emirates,2004,176319
+United Arab Emirates,2005,174926
+United Arab Emirates,2006,399306
+United Arab Emirates,2007,722380
+United Arab Emirates,2008,523207
+United Arab Emirates,2009,163643
+United Arab Emirates,2010,161842
+United Arab Emirates,2011,215183
+United Arab Emirates,2012,225921
+United Arab Emirates,2013,279269
+United Arab Emirates,2014,360174
+United Arab Emirates,2015,342468
+United Arab Emirates,2016,195317
+United Arab Emirates,2017,34155
+United Arab Emirates,2018,14611
+United Arab Emirates,2019,-125186
+United Arab Emirates,2020,92541
+United Arab Emirates,2021,421663
+United Arab Emirates,2022,322773
+United Arab Emirates,2023,300004
+United Arab Emirates,2024,278439
+United Arab Emirates,2025,158634
+United Kingdom,1960,19953
+United Kingdom,1961,52295
+United Kingdom,1962,76443
+United Kingdom,1963,8271
+United Kingdom,1964,-23885
+United Kingdom,1965,-24955
+United Kingdom,1966,-27935
+United Kingdom,1967,-39659
+United Kingdom,1968,-38852
+United Kingdom,1969,-60655
+United Kingdom,1970,-15254
+United Kingdom,1971,1175
+United Kingdom,1972,-1406
+United Kingdom,1973,-33840
+United Kingdom,1974,-65710
+United Kingdom,1975,-40241
+United Kingdom,1976,-19135
+United Kingdom,1977,-21636
+United Kingdom,1978,3783
+United Kingdom,1979,11255
+United Kingdom,1980,-25187
+United Kingdom,1981,-83876
+United Kingdom,1982,-61152
+United Kingdom,1983,27063
+United Kingdom,1984,71107
+United Kingdom,1985,83164
+United Kingdom,1986,41836
+United Kingdom,1987,8266
+United Kingdom,1988,13952
+United Kingdom,1989,49586
+United Kingdom,1990,57132
+United Kingdom,1991,27601
+United Kingdom,1992,17846
+United Kingdom,1993,27403
+United Kingdom,1994,45339
+United Kingdom,1995,61385
+United Kingdom,1996,54964
+United Kingdom,1997,59723
+United Kingdom,1998,125541
+United Kingdom,1999,152653
+United Kingdom,2000,153917
+United Kingdom,2001,175133
+United Kingdom,2002,203577
+United Kingdom,2003,211846
+United Kingdom,2004,276077
+United Kingdom,2005,308279
+United Kingdom,2006,288923
+United Kingdom,2007,309385
+United Kingdom,2008,263390
+United Kingdom,2009,249639
+United Kingdom,2010,274811
+United Kingdom,2011,228773
+United Kingdom,2012,172088
+United Kingdom,2013,237272
+United Kingdom,2014,306091
+United Kingdom,2015,347839
+United Kingdom,2016,324649
+United Kingdom,2017,272311
+United Kingdom,2018,259744
+United Kingdom,2019,232727
+United Kingdom,2020,144221
+United Kingdom,2021,462967
+United Kingdom,2022,487029
+United Kingdom,2023,445523
+United Kingdom,2024,417114
+United Kingdom,2025,389911
+United States,1960,422708
+United States,1961,580333
+United States,1962,625617
+United States,1963,639495
+United States,1964,618635
+United States,1965,644902
+United States,1966,637692
+United States,1967,585410
+United States,1968,594514
+United States,1969,523740
+United States,1970,744902
+United States,1971,833549
+United States,1972,833543
+United States,1973,783163
+United States,1974,706978
+United States,1975,655078
+United States,1976,635590
+United States,1977,577060
+United States,1978,556521
+United States,1979,503559
+United States,1980,595916
+United States,1981,583070
+United States,1982,600149
+United States,1983,662840
+United States,1984,622793
+United States,1985,598777
+United States,1986,493082
+United States,1987,480815
+United States,1988,460778
+United States,1989,400998
+United States,1990,1084720
+United States,1991,1202426
+United States,1992,1304880
+United States,1993,1228478
+United States,1994,1179309
+United States,1995,1173016
+United States,1996,1141648
+United States,1997,1116922
+United States,1998,1225134
+United States,1999,1156311
+United States,2000,1248392
+United States,2001,1312455
+United States,2002,1336518
+United States,2003,1331376
+United States,2004,1313467
+United States,2005,1369224
+United States,2006,1347750
+United States,2007,1371353
+United States,2008,1416841
+United States,2009,1387306
+United States,2010,1594453
+United States,2011,1624033
+United States,2012,1632007
+United States,2013,1663885
+United States,2014,1672598
+United States,2015,1722127
+United States,2016,1889129
+United States,2017,1864738
+United States,2018,1764961
+United States,2019,1774500
+United States,2020,329769
+United States,2021,674787
+United States,2022,1319009
+United States,2023,1322668
+United States,2024,1286132
+United States,2025,1230663

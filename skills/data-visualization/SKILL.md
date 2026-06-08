@@ -54,8 +54,10 @@ Useful migration indicators (coverage verified June 2026):
 
 ## Example
 
-`scripts/wb_migration_demo.py` fetches two of the indicators above and produces two charts (net migration Germany 1960-2025, female migrant share by country 1990-2020) as PNG + PDF:
+`scripts/wb_migration_demo.py` fetches several of the indicators above and produces two charts (net migration Germany 1960-2025, female migrant share by country 1990-2020) as PNG + PDF:
 
 ```
 uv run scripts/wb_migration_demo.py
 ```
+
+It is **offline-safe**: every pull is cached to `data/` as CSV, and if the World Bank API is unreachable the script falls back to those cached files so the demo still runs. Pre-rendered charts live in `examples/`, and the cached CSVs double as example datasets to explore (`data/`).
