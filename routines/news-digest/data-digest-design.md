@@ -1,5 +1,7 @@
 # Data Digest — Skill Design
 
+> This is the **build spec** (how the digest is engineered). For the student-facing quick start, the curated migration source list, and the output format, see [`README.md`](README.md) in this folder.
+
 A generalizable skill that produces a periodic digest of new academic work, data releases, and policy news on a configurable topic. The default config targets welfare-state / migration / labor economics, but retargeting to any subject is a config edit, not a code change.
 
 ## Core principle
@@ -72,6 +74,19 @@ sources:
     type: rss
     url: "https://cepr.org/voxeu"
     tier: 2
+  # Migration-specific working-paper series / institutes (curated list in README.md).
+  - id: cream
+    type: rss              # CReAM (UCL Centre for Research & Analysis of Migration); pin/scrape if no stable feed
+    url: "https://www.cream-migration.org/publications.php"
+    tier: 2
+  - id: rfberlin
+    type: rss              # RFBerlin (Rockwool Foundation Berlin)
+    url: "https://www.rfberlin.com/publications"
+    tier: 2
+  - id: bim
+    type: rss              # BIM (Berlin Institute for Empirical Integration and Migration Research)
+    url: "https://www.bim.hu-berlin.de/en/publications/"
+    tier: 2
 
   # Tier 3 — data-release calendars (announce datasets, not papers).
   - id: eurostat
@@ -83,6 +98,47 @@ sources:
     type: api
     endpoint: "https://api.worldbank.org/v2"
     indicators: ["SM.POP.NETM", "SL.UEM.TOTL.ZS"]
+    tier: 3
+  # German / migration-specific data releases.
+  - id: destatis
+    type: rss              # Destatis (German Federal Statistical Office) press releases, filter migration topics
+    url: "https://www.destatis.de/EN/Service/RSS/_node.html"
+    tier: 3
+  - id: bamf
+    type: rss              # BAMF asylum/migration statistics
+    url: "https://www.bamf.de/EN/Service/RSS/_node.html"
+    tier: 3
+  - id: un_desa
+    type: api              # UN DESA International Migrant Stock revisions (announce, fetch on update)
+    endpoint: "https://www.un.org/development/desa/pd/content/international-migrant-stock"
+    tier: 3
+  - id: unhcr_rdf
+    type: api              # UNHCR Refugee Data Finder updates
+    endpoint: "https://api.unhcr.org/population/v1"
+    tier: 3
+
+  # News & policy — feeds the "Policy & news" output section. Lighter trust than academic tiers;
+  # dedup against academic items and cap hard. Curated list in README.md.
+  - id: mpi
+    type: rss              # Migration Policy Institute (migrationpolicy.org)
+    url: "https://www.migrationpolicy.org/rss.xml"
+    tier: 2
+  - id: mediendienst
+    type: rss              # Mediendienst Integration (German coverage)
+    url: "https://mediendienst-integration.de/feed.html"
+    tier: 2
+  - id: politico_eu
+    type: rss              # Politico Europe — EU migration policy
+    url: "https://www.politico.eu/feed/"
+    keywords_filter: ["migration", "asylum", "immigration"]
+    tier: 3
+  - id: unhcr_news
+    type: rss              # UNHCR newsroom
+    url: "https://www.unhcr.org/rss/news.xml"
+    tier: 3
+  - id: iom_news
+    type: rss              # IOM newsroom
+    url: "https://www.iom.int/news/rss.xml"
     tier: 3
 
   # Tier 4 — fragile / noisy. Deferred to v2. Wrap in fallbacks,
@@ -223,3 +279,4 @@ For LaTeX/Beamer output, the same item objects render via a swapped template (Be
 - **OpenAlex over raw Scholar** for automation: documented JSON API, no scraping, stable. Use Scholar alerts only as a recall booster (v2).
 - **Wrap all fetchers in the error-handling contract** (Section 3). A run should never fail because one source changed its HTML.
 - **State file is the single source of truth** for "new vs. seen." `lookback_days` bounds the fetch window; the state file filters within it.
+- **The curated, human-readable source list** (with the migration-specific outlets and journals) lives in [`README.md`](README.md). The `sources:` block above is the machine-readable version of the same set; keep the two in sync when adding or dropping a source.

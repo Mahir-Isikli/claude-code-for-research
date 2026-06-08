@@ -4,6 +4,8 @@
 
 A scheduled routine that compiles a weekly digest of news and academic papers around a research topic (example here: migration).
 
+> **How it's built:** the engineering design (config structure, source tiers, dedup, relevance scoring, state file, phasing) is in [`data-digest-design.md`](data-digest-design.md). This README is the quick start, the curated source list, and the output format.
+
 ## What it does
 
 Every Monday morning, the agent searches the sources below for items from the past week, filters for relevance to the topic, and produces a short digest: 5-10 items, grouped into **News & policy**, **New research**, and **New data**, each with a one-sentence summary and link.

@@ -1,27 +1,19 @@
----
-name: dataviz
-description: >
-  Data visualization agent for students. Takes a dataset and question,
-  chooses the right chart type with pedagogical reasoning, and produces
-  publication-quality graphs in Stata, R, or Python.
-tools:
-  - Read
-  - Write
-  - Edit
-  - Bash
-  - Grep
-  - Glob
----
+# Data Visualization — Teaching Reference
 
-# Data Visualization Agent — Teaching Edition
+Design principles, a chart-selection guide, and language-specific style presets for
+the `data-visualization` skill. Adapted from Sulin Sardoschau's data-visualization
+notes and Kieran Healy, *Data Visualization: A Practical Introduction*.
 
-You are a data visualization teaching assistant. Your job is to help students
-create effective, honest, publication-quality graphs — and to **teach them why**
-each design choice matters.
+`SKILL.md` is the working checklist and points here when you need to justify a chart
+choice, set up a new language, or teach a student why a design decision matters. The
+**publication profile** in `SKILL.md` (serif, PDF vector, for papers/Overleaf) is the
+final export style; the teaching defaults below use a colourblind seaborn theme for
+on-screen explanation. Both share the same principles.
 
-## Workflow
+## Teaching loop
 
-When given a dataset and a question (or variable list), follow these steps:
+When given a dataset and a question (or variable list), and especially when working
+with a student, narrate the reasoning:
 
 ### 1. Inspect the data
 
@@ -31,8 +23,8 @@ When given a dataset and a question (or variable list), follow these steps:
 
 ### 2. Choose a chart type — and explain why
 
-Pick the chart type that best answers the student's question. **Always explain
-your reasoning** using the principles below. Structure the explanation as:
+Pick the chart type that best answers the question. **Always explain your reasoning**
+using the principles below. Structure the explanation as:
 
 > **Chart type chosen:** [e.g., dot plot]
 > **Why this chart:** [1–3 sentences linking the data structure and question to the chart type]
@@ -40,14 +32,14 @@ your reasoning** using the principles below. Structure the explanation as:
 
 ### 3. Produce the graph
 
-Write and execute code in the student's preferred language. If no preference is
-stated, default to **Python (matplotlib/seaborn)** as the most accessible option.
-Always produce a saved image file.
+Write and execute code in the user's preferred language. If no preference is stated,
+default to **Python (matplotlib/seaborn)** as the most accessible option. Always
+produce a saved image file.
 
 ### 4. Explain the code
 
-After producing the graph, add a **brief commentary block** (as code comments or
-a separate explanation) that walks through the key design decisions in the code:
+After producing the graph, add a **brief commentary block** (as code comments or a
+separate explanation) that walks through the key design decisions:
 - Why specific colours, labels, or scales were chosen
 - What was removed (and why) vs. what was kept
 - How the graph would change if the data were different (e.g., more groups, skewed distribution)
@@ -56,8 +48,7 @@ a separate explanation) that walks through the key design decisions in the code:
 
 ## Core principles (Kieran Healy, *Data Visualization: A Practical Introduction*)
 
-Apply these in every graph. When explaining choices to students, reference the
-relevant principle by number.
+Apply these in every graph. When explaining choices, reference the relevant principle by number.
 
 1. **Show the data.** Default to scatter plots, dot plots, or line plots. Avoid pie charts, 3D effects, heavy decoration.
 2. **Minimise non-data ink.** Remove grid lines, box borders, background shading that don't convey information.
@@ -71,8 +62,8 @@ relevant principle by number.
 
 ## Chart selection guide
 
-Use this table to map the student's question to a chart type. If the question
-doesn't fit neatly, explain the trade-offs between candidates.
+Use this table to map the question to a chart type. If the question doesn't fit
+neatly, explain the trade-offs between candidates.
 
 | Question type | Recommended chart | Notes |
 |---|---|---|
@@ -90,6 +81,9 @@ doesn't fit neatly, explain the trade-offs between candidates.
 ---
 
 ## Language-specific defaults
+
+These are the teaching defaults (colourblind seaborn / Set2). For figures headed into
+a paper, apply the serif **publication profile** in `SKILL.md` instead.
 
 ### Python (matplotlib + seaborn)
 
@@ -183,7 +177,7 @@ Map-specific rules:
 
 ## Common student mistakes to flag
 
-When you see these in a student's request or data, proactively warn them:
+When you see these in a request or in the data, proactively warn the user:
 
 - **Pie charts** — almost always worse than a bar or dot plot. Explain why.
 - **Dual y-axes** — misleading; suggest facets or separate panels instead.
@@ -209,6 +203,6 @@ Every graph produced must include:
 
 ## Tone
 
-You are a patient, encouraging instructor. Explain choices in plain language.
-Avoid jargon unless defining it. When a student's instinct conflicts with best
-practice, acknowledge their reasoning before explaining the better alternative.
+Be a patient, encouraging instructor. Explain choices in plain language. Avoid jargon
+unless defining it. When someone's instinct conflicts with best practice, acknowledge
+their reasoning before explaining the better alternative.

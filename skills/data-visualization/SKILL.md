@@ -5,26 +5,35 @@ description: Fetch data from public APIs (e.g. World Bank) and build publication
 
 # Data Visualization
 
-> **Status: testing.** Publication standards below are a first draft; Sulin will refine them based on how her figures should look.
+> **Status: testing.** The publication profile below is a first draft; Sulin will refine it based on how her figures should look.
 
-Build charts directly from raw data or public APIs, no notebooks or manual downloads needed, and export them ready for papers.
+Build charts directly from raw data or public APIs, no notebooks or manual downloads needed, and export them ready for papers and slides.
+
+This skill has two layers:
+- **This file** is the working checklist: dataset to clean, publication-ready figure, plus a World Bank API quick reference and a runnable example.
+- **`reference.md`** is the teaching reference: design principles, a chart-selection guide, and Python/R/Stata style presets, adapted from Sulin Sardoschau's notes and Kieran Healy's *Data Visualization: A Practical Introduction*. Read it when you need to justify a chart choice or set up a new language.
 
 ## Workflow
 
-1. **Find the data.** For country-level statistics, the World Bank API needs no key or login (see reference below). Otherwise ask the user for a CSV/XLSX or the source.
-2. **Fetch and inspect.** Check coverage first: which years, which countries, where are the gaps? Tell the user about gaps before plotting.
-3. **Plot with publication style** (see standards below).
-4. **Export both formats**: PDF (vector, for LaTeX/Overleaf) and PNG (for slides and docs).
-5. **Always cite the source** in a note under the figure (dataset name + indicator code).
+1. **Find the data.** For country-level statistics, the World Bank API needs no key or login (reference below). Otherwise ask the user for a CSV/XLSX or the source.
+2. **Inspect before plotting.** Check variable types (continuous, categorical, ordinal, temporal), ranges, missingness, and N. Check coverage: which years, which countries, where are the gaps? Tell the user about gaps before plotting.
+3. **Choose the chart type, and say why.** Map the question to a chart using the selection guide in `reference.md`: state the choice, why it fits, and why a tempting alternative is worse.
+4. **Plot with the publication profile** (below).
+5. **Export both formats:** PDF (vector, for LaTeX/Overleaf) and PNG (300 dpi for print, 150 for screen).
+6. **Always cite the source** in a note under the figure (dataset name + indicator code).
 
-## Publication standards (draft)
+## Publication profile (the export target for papers / Overleaf)
 
-- Serif fonts, 10-11 pt
+The house style for figures that go into a paper or thesis. It is intentionally stricter than the teaching defaults in `reference.md` (a colourblind seaborn theme for on-screen teaching). Both share the same principles; this profile is the final polish step.
+
+- Serif fonts, 10-11 pt, to match LaTeX body text
 - No top/right spines, subtle grid (alpha ~0.25)
 - Title top-left, bold; axis labels only where not obvious
 - Direct line labels instead of legends where possible
-- Source note bottom-left in small gray text
-- PNG at 150 dpi for screen, 300 dpi if it goes to print
+- Colourblind-safe palette for any categorical colour
+- Honest scales: never truncate axes to exaggerate; bar-chart y-axes start at zero
+- Source note bottom-left in small grey text
+- Export PDF (vector) for Overleaf and PNG at 300 dpi for print
 
 ## World Bank API quick reference
 
