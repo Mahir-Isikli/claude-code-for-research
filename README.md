@@ -9,6 +9,7 @@ Everything in this repo is meant to be taken home: install the skills, set up th
 ```
 .claude/skills/
   data-visualization/   Build publication-ready charts from raw data (status: testing)
+  migration-digest/     Same-day or this-week digest of migration papers, policy news, and data releases (status: final)
 routines/
   news-digest/          Weekly digest of news + academic papers on your research topic (status: draft)
 ```
