@@ -50,7 +50,7 @@ That is the whole loop: open a folder, describe what you want in plain language,
 
 ## What is in this repo
 
-- `skills/data-visualization/` build publication-ready charts from raw data or public APIs. Includes a runnable demo, cached example data, and pre-rendered charts.
+- `.claude/skills/data-visualization/` build publication-ready charts from raw data or public APIs. Includes a runnable demo, cached example data, and pre-rendered charts. (Lives under `.claude/skills/` so Claude Code loads it automatically.)
 - `routines/news-digest/` a weekly digest of news and academic papers on a research topic.
 
 Everything here is meant to be taken home and adapted to your own research.
