@@ -7,11 +7,13 @@ Everything in this repo is meant to be taken home: install the skills, set up th
 ## What's in here
 
 ```
-skills/
+.claude/skills/
   data-visualization/   Build publication-ready charts from raw data (status: testing)
 routines/
   news-digest/          Weekly digest of news + academic papers on your research topic (status: draft)
 ```
+
+Skills live in `.claude/skills/` so Claude Code discovers and loads them automatically when you open this repo.
 
 Things marked **testing** or **draft** are work in progress; they become **final** before the session.
 

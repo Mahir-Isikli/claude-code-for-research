@@ -4,7 +4,7 @@ This repo holds Claude Code materials for an academic research workshop at HU Be
 
 ## Structure
 
-- `skills/<skill-name>/SKILL.md`: one folder per skill, frontmatter with `name` and `description`, optional helper scripts in the same folder
+- `.claude/skills/<skill-name>/SKILL.md`: one folder per skill, frontmatter with `name` and `description`, optional helper scripts in the same folder. Skills live under `.claude/skills/` so Claude Code discovers them automatically.
 - `routines/<routine-name>/README.md`: scheduled automations (e.g. news digest), each with sources, schedule, output format, and setup instructions
 - `README.md`: student-facing entry point with the session outline and getting-started guide
 
